@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 TELEGRAM_TOKEN = "8970457681:AAEl3WcFw0sOb1i0EZNNn3HxHvEl2HIk9AM"
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
